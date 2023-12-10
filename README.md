@@ -10,10 +10,10 @@ Bootstrap框架,致力于我们332宿舍的网页开发，设计，留念。锻�
 
 ## 效果一览
 
-![Alt text](<屏幕截图 2023-11-26 145338.png>)  
-![Alt text](<屏幕截图 2023-11-26 145407.png>)  
-![Alt text](<屏幕截图 2023-11-26 145449.png>)  
-![Alt text](<屏幕截图 2023-11-26 145652.png>)  
+![Alt text](assets/1.png)
+![Alt text](assets/2.png)  
+![Alt text](assets/3.png)  
+![Alt text](assets/4.png)
 轮播图 动态渐变字符...效果
 
 ## 开发工具
@@ -54,21 +54,15 @@ data-wow-delay="700ms"  参数是当网页刷新是延迟显示,将不同图像�
 ## 网易云外链播放器
 
 <div style="display: flex; flex-direction: row;">
-  <img src="屏幕截图 2023-11-26 162230.png" alt="Image 1" style="width: 50%;">
-  <img src="屏幕截图 2023-11-26 162315.png" alt="Image 2" style="width: 50%;">
+  <img src="/332sixdog/assets/6.png" alt="Image 1" style="width: 50%;">
+  <img src="/332sixdog/assets/7.png" alt="Image 2" style="width: 50%;">
 </div>  
 代码即可使用  
   
 ## 其他
 
 网页中藏有三个b站or抖音链接。  
-留言板功能(默认关闭)
-
-``` HTML
- <li class="active"><a href="#">留言板</a></li>
-```
-
-开启
+留言板功能(php连接mysql)
 
 ```HTML
  <li class="active"><a href="lxx.php">留言板</a></li>
@@ -76,7 +70,7 @@ data-wow-delay="700ms"  参数是当网页刷新是延迟显示,将不同图像�
 
 但需要建立mysql(数据库 表单),可借助phpstudy创建mysql,用Navicat连接创建相应内容。  
 mysql建立  
-![Alt text](<屏幕截图 2023-11-26 154901.png>)  
+![Alt text](assets/5.png)
 在 conn.php文件中可修改(地址,用户名,密码,数据库名):
 
 ```php
@@ -114,4 +108,4 @@ mysql建立
 链接:https://github.com/xfk215/332sushe  
 无梯子访问网页慢。  
 
-更多内容探索! 感谢光临! 期待你的参与!
+更多内容探索! 期待下次相遇!
