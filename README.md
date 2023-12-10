@@ -53,11 +53,8 @@ data-wow-delay="700ms"  参数是当网页刷新是延迟显示,将不同图像�
 
 ## 网易云外链播放器
 
-<div style="display: flex; flex-direction: row;">
-  <img src="/332sixdog/assets/6.png" alt="Image 1" style="width: 50%;">
-  <img src="/332sixdog/assets/7.png" alt="Image 2" style="width: 50%;">
-</div>  
-代码即可使用  
+ ![Alt text](assets/6.png)  ![Alt text](assets/7.png)  
+复制代码即可使用  
   
 ## 其他
 
