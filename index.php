@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="郑州航空工业管理学院-小方块">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <title>332六条犬</title>
+	
+    <link rel="icon" href="./img/core-img/logo.png">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+    <div class="top-search-area">
+        <div class="modal fade" id="searchModal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="btn close-btn" data-dismiss="modal"><i class="ti-close"></i></button>
+                        <form action="index.php" method="post">
+                            <input type="search" name="top-search-bar" class="form-control" placeholder="Search and hit enter...">
+                            <button type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header class="header-area">
+            <div class="main-header-area">
+                <div class="classy-nav-container breakpoint-off">
+                    <div class="container">
+                        <nav class="classy-navbar justify-content-between" id="alimeNav">
+                            <div class="classy-navbar-toggler"><span class="navbarToggler"><span></span><span></span><span></span></span>
+                            </div>
+                            <div class="classy-menu">
+                                <div class="classycloseIcon">
+                                    <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                                </div>
+                                <div class="classynav">
+                                    <ul id="nav">
+                                        <li class="active"><a href="./index.php">主页&nbsp;</a></li>
+                                        <li class="active"><a href="lxx.php">留言板</a></li>
+                                        <li><a href="#">关于我们</a></li>
+                                        <li><a href="#">332宿舍&nbsp;</a>
+                                            <ul class="dropdown">
+                                                <li><a href="./index.php">-林晓征</a></li>
+                                                <li><a href="./index.php">-郝亚利</a></li>
+                                                <li><a href="./index.php">-耿方旭</a></li>
+                                                <li><a href="./index.php">-胡誉罗</a></li>
+                                                <li><a href="./index.php">-张嘉豪</a></li>
+                                                <li><a href="./index.php">-马家铭</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">敬请期待&nbsp;</a></li>
+                                        <li><a href="#">特别鸣谢&nbsp;</a>
+                                            <ul class="dropdown">
+                                                <li><a href="#">-332共创团</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=300 height=70 src="//music.163.com/outchain/player?type=2&id=5284003&auto=1&height=66"></iframe></li>
+                                    </ul>
+                                    
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+	
+    <section class="welcome-area">
+        <div class="welcome-slides owl-carousel">
+            <div class="single-welcome-slide bg-img bg-overlay" style="background-image:url(img/bg-img/112.jpg)">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-12 col-lg-8 col-xl-6">
+                            <div class="welcome-text">
+                                <h2 data-animation="bounceInDown" data-delay="900ms">332宿舍<br></h2>
+                                <p data-animation="bounceInDown" data-delay="500ms">我居北海君南海，寄雁传书谢不能。桃李春风一杯酒，江湖夜雨十年灯。</p>
+                                <div class="hero-btn-group" data-animation="bounceInDown" data-delay="100ms"><a href="https://www.bilibili.com/video/BV1vL4y1b7Bb/?spm_id_from=333.337.search-card.all.click&vd_source=5b993b85304cb96739d2d062d9cf9b64" target="_blank" class="btn alime-btn mb-3 mb-sm-0 mr-4">友谊</a> <a class="hero-mail-contact">北宋黄庭坚《寄黄几复》</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="single-welcome-slide bg-img bg-overlay" style="background-image:url(img/bg-img/114.jpg)">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-12 col-lg-8 col-xl-6">
+                            <div class="welcome-text">
+                                <h2 data-animation="bounceInUp" data-delay="100ms"><br>小方块</h2>
+                                <p data-animation="bounceInUp" data-delay="500ms">渭城朝雨浥轻尘，客舍青青柳色新。劝君更尽一杯酒，西出阳关无故人。</p>
+                                <div class="hero-btn-group" data-animation="bounceInUp" data-delay="900ms"><a href="https://www.bilibili.com/video/BV1AN4y1S7HN/?spm_id_from=333.337.search-card.all.click&vd_source=5b993b85304cb96739d2d062d9cf9b64" target="_blank" class="btn alime-btn mb-3 mb-sm-0 mr-4">友谊</a> <a class="hero-mail-contact">唐代王维《送元二使安西》</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+	
+    <div class="alime-portfolio-area section-padding-80 clearfix">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="alime-projects-menu">
+                        <div class="portfolio-menu text-center">
+                            <button class="btn active" data-filter="*">首页</button>
+                            <button class="btn" data-filter=".photo">照片&nbsp;</button>
+                            <button class="btn" data-filter=".video">视频&nbsp;</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row alime-portfolio">
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item photo mb-30 wow fadeInUp" data-wow-delay="100ms">
+                    <div class="single-portfolio-content"><img src="img/bg-img/2.jpg" alt="">
+                        <div class="hover-content"><a href="img/bg-img/2.jpg" class="portfolio-img">+</a></div>
+                    </div>
+                </div>
+				<div class="col-12 col-sm-6 col-lg-3 single_gallery_item photo mb-30 wow fadeInUp" data-wow-delay="500ms">
+				    <div class="single-portfolio-content"><img src="img/bg-img/1.jpg" alt="">
+				        <div class="hover-content"><a href="img/bg-img/1.jpg" class="portfolio-img">+</a></div>
+				    </div>
+				</div>
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item video mb-30 wow fadeInUp" data-wow-delay="300ms">
+                    <div class="single-portfolio-content"><img src="img/bg-img/5.png" alt="">
+                        <div class="hover-content"><a href="img/vidoes/5566.mp4" class="video-play-btn"><i class="arrow_triangle-right"></i></a></div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item video mb-30 wow fadeInUp" data-wow-delay="500ms">
+                    <div class="single-portfolio-content"><img src="img/bg-img/3.png" alt="">
+                        <div class="hover-content"><a href="img/vidoes/7788.mp4" class="video-play-btn"><i class="arrow_triangle-right"></i></a></div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item video mb-30 wow fadeInUp" data-wow-delay="700ms">
+                    <div class="single-portfolio-content"><img src="img/bg-img/4.png" alt="">
+                        <div class="hover-content"><a href="img/vidoes/2211.mp4" class="video-play-btn"><i class="arrow_triangle-right"></i></a></div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item photo mb-30 wow fadeInUp" data-wow-delay="700ms">
+                    <div class="single-portfolio-content"><img src="img/bg-img/6.jpg" alt="">
+                        <div class="hover-content"><a href="img/bg-img/6.jpg" class="portfolio-img">+</a></div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item photo mb-30 wow fadeInUp" data-wow-delay="100ms">
+                    <div class="single-portfolio-content"><img src="img/bg-img/7.jpg" alt="">
+                        <div class="hover-content"><a href="img/bg-img/7.jpg" class="portfolio-img">+</a></div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item photo mb-30 wow fadeInUp" data-wow-delay="700ms">
+                    <div class="single-portfolio-content"><img src="img/bg-img/8.jpg" alt="">
+                        <div class="hover-content"><a href="img/bg-img/8.jpg" class="portfolio-img">+</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center wow fadeInUp" data-wow-delay="700ms"><a href="#" class="btn alime-btn btn-2 mt-15">更多</a></div>
+            </div>
+        </div>
+    </div>
+
+    <section class="follow-area clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading text-center">
+                        <h4>332宿舍谁是最有种的人？</h4><h2>二十四桥明月夜，玉人何处教吹箫？</h2><h2>我寄愁心与明月，随君直到夜郎西。</h2>
+                        <p>——小方块</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="instragram-feed-area owl-carousel">
+            <div class="single-instagram-item"><img src="img/bg-img/f1.jpg" alt="">
+                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center"><a href="#"><i class="ti-instagram" aria-hidden="true"></i> <span>我们</span></a></div>
+            </div>
+			<div class="single-instagram-item"><img src="img/bg-img/f2.jpg" alt="">
+			    <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center"><a href="#"><i class="ti-instagram" aria-hidden="true"></i> <span>我们</span></a></div>
+			</div>
+			<div class="single-instagram-item"><img src="img/bg-img/f3.jpg" alt="">
+			    <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center"><a href="#"><i class="ti-instagram" aria-hidden="true"></i> <span>我们</span></a></div>
+			</div>
+			<div class="single-instagram-item"><img src="img/bg-img/f4.jpg" alt="">
+			    <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center"><a href="#"><i class="ti-instagram" aria-hidden="true"></i> <span>我们</span></a></div>
+			</div>
+			<div class="single-instagram-item"><img src="img/bg-img/f5.jpg" alt="">
+			    <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center"><a href="#"><i class="ti-instagram" aria-hidden="true"></i> <span>我们</span></a></div>
+			</div>
+			<div class="single-instagram-item"><img src="img/bg-img/f6.jpg" alt="">
+			    <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center"><a href="#"><i class="ti-instagram" aria-hidden="true"></i> <span>我们</span></a></div>
+			</div>
+			<div class="single-instagram-item"><img src="img/bg-img/f1.jpg" alt="">
+			    <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center"><a href="#"><i class="ti-instagram" aria-hidden="true"></i> <span>我们</span></a></div>
+			</div>
+			<div class="single-instagram-item"><img src="img/bg-img/f2.jpg" alt="">
+			    <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center"><a href="#"><i class="ti-instagram" aria-hidden="true"></i> <span>我们</span></a></div>
+			</div>
+			<div class="single-instagram-item"><img src="img/bg-img/f3.jpg" alt="">
+			    <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center"><a href="#"><i class="ti-instagram" aria-hidden="true"></i> <span>我们</span></a></div>
+			</div>
+			<div class="single-instagram-item"><img src="img/bg-img/f4.jpg" alt="">
+			    <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center"><a href="#"><i class="ti-instagram" aria-hidden="true"></i> <span>我们</span></a></div>
+			</div>
+			<div class="single-instagram-item"><img src="img/bg-img/f5.jpg" alt="">
+			    <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center"><a href="#"><i class="ti-instagram" aria-hidden="true"></i> <span>我们</span></a></div>
+			</div>
+			<div class="single-instagram-item"><img src="img/bg-img/f6.jpg" alt="">
+			    <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center"><a href="#"><i class="ti-instagram" aria-hidden="true"></i> <span>我们</span></a></div>
+			</div>
+        </div>
+    </section>
+
+
+	<footer class="footer-area">
+	        <div class="container">
+	            <div class="row">
+	                <div class="col-12">
+	                    <div class="footer-content d-flex align-items-center justify-content-between">
+	                        <div class="copywrite-text">
+	                            <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&copy;
+	                                <script>
+	                                    document.write((new Date).getFullYear());
+	                                </script>感谢相伴，感谢朋友们 <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://www.douyin.com/user/self?modal_id=7301226626413546790&showTab=record" target="_blank">Beyond</a></p>
+	                        </div>
+	                        <div class="footer-logo">
+	                            <a href="#"></a>
+	                        </div>
+	                        
+	                    </div>
+	                </div>
+	            </div>
+			</div>
+	</footer>
+	
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/alime.bundle.js"></script>
+    <script src="js/default-assets/active.js"></script>
+</body>	
+</html>
+
+
